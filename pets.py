@@ -11,6 +11,8 @@ class Pet:
       self.energy -= 1
       return f"{self.name} plays happily! Energy left: {self.energy}"
     return f"{self.name} is too tired to play."
+  def sleep(self):
+    return f"{self.name} is sleeping."
   def describe(self):
     return f"{self.name} is {self.age} years old and says {self.speak()}"
     
